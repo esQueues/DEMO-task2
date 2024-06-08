@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest --detectOpenHandles",
+    "test": "jest --detectOpenHandles",
     "build": "echo \"Building the project...\""
   },
   "keywords": [],
@@ -17,5 +17,4 @@
     "jest": "^29.7.0",
     "supertest": "^7.0.0"
   }
-
 }
